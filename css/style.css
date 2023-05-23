@@ -1,0 +1,401 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{ 
+    padding:0;
+    margin : 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #122e44;}
+
+img{
+    width:100%;
+}
+
+section{
+    padding:100px 0;
+
+}
+
+.section_title{
+    margin-bottom:30px;
+}
+
+.section_title h2{
+   position: relative;
+   text-align: center;
+   color: #fff;
+   font-size:30px;
+   transition: all .5s ease-in-out; 
+}
+
+.section_title h2:hover{
+    background-color: #24caac;
+ }
+
+
+ /*****************header**********************/
+ 
+
+ header{
+    background: rgb(7, 221, 71);
+    border-bottom: 1px solid rgba(238,238,238,0.881);
+    position: fixed;
+    width:100%;
+    z-index: 5;   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+.nav_links{
+    display:flex;
+}
+
+.nav_links li a{
+    margin-left: 15px;
+    color:#fff;
+    padding:5px 15px;
+    border-radius:5px ;
+    transition:all .5s ease-in-out;
+}
+
+.nav_links li a:hover{
+    background:#1b5099;
+}
+
+.logo h2 a{
+    color:#ffffff;
+    text-transform: uppercase;
+}
+.inner_anasayfa h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: gold;
+    font-size: 3rem;
+    font-family:cursive;
+}
+.inner_anasayfa a {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 450px;
+    color: gold;
+    font-size: 3rem;
+    font-family:cursive;
+}
+.inner_anasayfa h1{
+    padding-top: 100px;
+    text-align: center;
+    color: gold;
+    font-size: 6rem;
+    font-family:cursive;
+}
+.inner_anasayfa h3{
+    padding-top: -500px;
+    position: relative;
+    left: 100px;
+    text-align: left;
+    color: gold;
+    font-size: 5rem;
+    font-family: fantasy;
+}
+.inner_anasayfa h4{
+    padding-top: 150px;
+    text-align: center;
+    color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.color-text-a {
+    padding-top: 600px;
+    text-align: center;
+    color: chartreuse;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: center;
+    right: 50px;  
+}
+
+  .form-group label,
+  .form-group input,
+  .form-group textarea {
+    width: 500px;
+    display: block;
+  }
+
+
+
+/* deneme */
+
+/* Icons ---------------------------------- */
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div{
+    text-align: center;
+    background-color: yellow;
+    padding-left: 35px;
+    padding-top: 35px ;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    width: 450px;
+    float: right;
+    right: 100px;
+    margin-top:70px;
+    margin-right: 750px;
+    border-radius: 10px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+div#div_file{
+    left: 600px;
+    text-align: center;
+	position:relative;
+	margin:50px;
+	padding:10px;
+	width:250px;
+	background-color: #2499e3;
+    border-radius: 10px;
+}
+.resım{
+  
+  justify-content: center;
+    width: 360px;
+    height: 400px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+.araba{
+    width: 600px;
+    height: 600px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+.center {
+    position: absolute;
+    top: 1px;
+    right: 100px;
+    box-sizing: border-box;
+    padding: 400px;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+  }
+
+button.social-signin {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+  
+  button.social-signin.facebook {
+    background: #32508E;
+  }
+  
+  button.social-signin.twitter {
+    background: #55ACEE;
+  }
+  
+  button.social-signin.google {
+    background: #DD4B39;
+  }
+  button.social-signin.youtube {
+    background: #DD4B39;
+  }
+  button.social-signin.instagram {
+    background: #ffae00;
+  }
+
+  .paragraf {
+    background-color: rgba(169, 115, 115, 0.85); /* Saydam arkaplan rengi */
+    border-radius: 0px; /* Köşelerin oval şeklini belirler */
+    padding: 30px; /* İçerik boşluğu */
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+
+    width: 1100px; /* Belirlediğiniz genişlik değeri */
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    animation: shake 0.5s forwards;
+  }
+
+  .container {
+    background-color: rgba(213, 17, 17, 0.85); /* Saydam arkaplan rengi */
+    border-radius: 0px; /* Köşelerin oval şeklini belirler */
+    padding: 30px; /* İçerik boşluğu */
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+
+  }
+ 
